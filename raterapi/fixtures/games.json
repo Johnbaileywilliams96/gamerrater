@@ -1,0 +1,121 @@
+[
+    {
+      "model": "raterapi.game",
+      "pk": 1,
+      "fields": {
+        "title": "Gloomhaven",
+        "description": "Gloomhaven is a cooperative game of tactical combat, battling monsters and advancing a player's own individual goals in a persistent and changing world that is ideally played over many game sessions.",
+        "designer": "Isaac Childres",
+        "year_released": 2017,
+        "min_players": 1,
+        "max_players": 4,
+        "estimated_play_time": 120,
+        "age_recommendation": 14,
+        "created_by": 1,
+        "created_at": "2023-03-10T14:30:00Z",
+        "updated_at": "2023-03-10T14:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 2,
+      "fields": {
+        "title": "Spirit Island",
+        "description": "In Spirit Island, players are different spirits of the land, each with their own unique elemental powers. Together, they must drive back the colonizing invaders who are ravaging the island and its native people.",
+        "designer": "R. Eric Reuss",
+        "year_released": 2017,
+        "min_players": 1,
+        "max_players": 4,
+        "estimated_play_time": 120,
+        "age_recommendation": 13,
+        "created_by": 2,
+        "created_at": "2023-03-11T15:45:00Z",
+        "updated_at": "2023-03-11T15:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 3,
+      "fields": {
+        "title": "Wingspan",
+        "description": "Wingspan is a competitive, medium-weight, card-driven, engine-building board game in which players compete to attract birds to their wildlife preserves.",
+        "designer": "Elizabeth Hargrave",
+        "year_released": 2019,
+        "min_players": 1,
+        "max_players": 5,
+        "estimated_play_time": 70,
+        "age_recommendation": 10,
+        "created_by": 3,
+        "created_at": "2023-03-12T10:15:00Z",
+        "updated_at": "2023-03-12T10:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 4,
+      "fields": {
+        "title": "Terraforming Mars",
+        "description": "In Terraforming Mars, players take on the role of corporations working together to terraform the planet by raising the temperature, creating oxygen, and making oceans. Players compete to earn the most victory points, which are measured by their contribution to terraforming, as well as building human infrastructure.",
+        "designer": "Jacob Fryxelius",
+        "year_released": 2016,
+        "min_players": 1,
+        "max_players": 5,
+        "estimated_play_time": 120,
+        "age_recommendation": 12,
+        "created_by": 1,
+        "created_at": "2023-03-13T16:20:00Z",
+        "updated_at": "2023-03-13T16:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 5,
+      "fields": {
+        "title": "Everdell",
+        "description": "Everdell is a game of dynamic tableau building and worker placement where players are creating a city of critters and constructions. The game is played over four seasons, at the end of which players score points for their tableau of cards.",
+        "designer": "James A. Wilson",
+        "year_released": 2018,
+        "min_players": 1,
+        "max_players": 4,
+        "estimated_play_time": 80,
+        "age_recommendation": 13,
+        "created_by": 2,
+        "created_at": "2023-03-14T09:40:00Z",
+        "updated_at": "2023-03-14T09:40:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 6,
+      "fields": {
+        "title": "Brass: Birmingham",
+        "description": "Brass: Birmingham is an economic strategy game sequel to Martin Wallace's 2007 masterpiece, Brass. Birmingham tells the story of competing entrepreneurs in Birmingham during the industrial revolution, between the years of 1770-1870.",
+        "designer": "Gavan Brown, Matt Tolman, Martin Wallace",
+        "year_released": 2018,
+        "min_players": 2,
+        "max_players": 4,
+        "estimated_play_time": 120,
+        "age_recommendation": 14,
+        "created_by": 3,
+        "created_at": "2023-03-15T11:30:00Z",
+        "updated_at": "2023-03-15T11:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.game",
+      "pk": 7,
+      "fields": {
+        "title": "Root",
+        "description": "Root is a game of adventure and war where 2 to 4 players battle for control of a vast wilderness. The nefarious Marquise de Cat has seized the great woodland, intent on harvesting its riches. Under her rule, the many creatures of the forest have banded together.",
+        "designer": "Cole Wehrle",
+        "year_released": 2018,
+        "min_players": 2,
+        "max_players": 4,
+        "estimated_play_time": 90,
+        "age_recommendation": 10,
+        "created_by": 4,
+        "created_at": "2023-03-16T14:10:00Z",
+        "updated_at": "2023-03-16T14:10:00Z"
+      }
+    }
+  ]
