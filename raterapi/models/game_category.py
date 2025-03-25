@@ -1,7 +1,8 @@
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
-from raterapi.models import Game, Category 
+from .game import Game
+from .category import Category
 
 
 # from django.db import models
