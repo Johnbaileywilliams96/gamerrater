@@ -4,6 +4,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ViewSet
 from raterapi.models import Game
 from django.contrib.auth.models import User
+from .category_view import CategorySerializer
 
 
 
@@ -29,28 +30,59 @@ class GameView(ViewSet):
         except Exception as ex:
             return HttpResponseServerError(ex)
 
+    def retrieve(self, request, pk=None):
+        """Handle GET requests for single type
+
+        Returns:
+            Response -- JSON serialized type record
+        """
+
+        games = Game.objects.get(pk=pk)
+        serialized = GameSerializer(games)
+        return Response(serialized.data, status=status.HTTP_200_OK)
+
+    def create(self, request):
+        """Handle POST requests for rocks
+
+        Returns:
+            Response: JSON serialized representation of newly created rock
+        """
+
+        # Get an object instance of a rock type
+        chosen_type = Game.objects.get(pk=request.data['type_id'])
+
+        # Create a rock object and assign it property values
+        game = Game()
+        game.user = request.auth.user
+        game.description = request.data['description']
+        game.title = request.data['title']
+        game.designer = request.data['designer']
+        game.created_at = request.data['created_at']
+        game.save()
+
+        serialized = GameSerializer(game, many=False)
+
+        return Response(serialized.data, status=status.HTTP_201_CREATED)
+
+
 
 
 class GameSerializer(serializers.ModelSerializer):
-    """JSON serializer"""
+    categories = serializers.SerializerMethodField()
+    
+    def get_categories(self, obj):
+        game_categories = obj.categories.all()
+        
+        return [
+            {
+                'id': gc.category.id,
+                'name': gc.category.name
+            }
+            for gc in game_categories
+        ]
+    
     class Meta:
         model = Game
-        fields = ( 'id', 'title', 'description', 'designer', 'created_at', )
+        fields = ['id', 'title', 'description', 'designer', 'categories']
 
 
-
-# model": "raterapi.game",
-#       "pk": 1,
-#       "fields": {
-#         "title": "Gloomhaven",
-#         "description": "Gloomhaven is a cooperative game of tactical combat, battling monsters and advancing a player's own individual goals in a persistent and changing world that is ideally played over many game sessions.",
-#         "designer": "Isaac Childres",
-#         "year_released": 2017,
-#         "min_players": 1,
-#         "max_players": 4,
-#         "estimated_play_time": 120,
-#         "age_recommendation": 14,
-#         "created_by": 1,
-#         "created_at": "2023-03-10T14:30:00Z",
-#         "updated_at": "2023-03-10T14:30:00Z"
-#       }

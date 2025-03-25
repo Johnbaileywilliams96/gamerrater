@@ -1,0 +1,90 @@
+[
+    {
+        "model": "raterapi.category",
+        "pk": 1,
+        "fields": {
+            "name": "Strategy"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 2,
+        "fields": {
+            "name": "Dice",
+            "description": "Games primarily using dice as the main mechanic.",
+            "created_at": "2023-03-10T15:15:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 3,
+        "fields": {
+            "name": "Card",
+            "description": "Games played primarily with a standard deck of cards.",
+            "created_at": "2023-03-10T15:30:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 4,
+        "fields": {
+            "name": "Miniature",
+            "description": "Games featuring collectible miniature figures.",
+            "created_at": "2023-03-10T15:45:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 5,
+        "fields": {
+            "name": "Deck building",
+            "description": "Games where players construct a personal deck of cards during play.",
+            "created_at": "2023-03-10T16:00:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 6,
+        "fields": {
+            "name": "Role playing",
+            "description": "Games where players assume the roles of characters in a fictional setting.",
+            "created_at": "2023-03-10T16:15:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 7,
+        "fields": {
+            "name": "Sports",
+            "description": "Games based on or simulating real-world sports.",
+            "created_at": "2023-03-10T16:30:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 8,
+        "fields": {
+            "name": "Adventure",
+            "description": "Games featuring exploration and narrative-driven challenges.",
+            "created_at": "2023-03-10T16:45:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 9,
+        "fields": {
+            "name": "Cooperative",
+            "description": "Games where players work together against the game itself.",
+            "created_at": "2023-03-10T17:00:00Z"
+        }
+    },
+    {
+        "model": "raterapi.category",
+        "pk": 10,
+        "fields": {
+            "name": "Battle",
+            "description": "Games centered around combat and tactical warfare.",
+            "created_at": "2023-03-10T17:15:00Z"
+        }
+    }
+]
