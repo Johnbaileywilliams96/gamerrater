@@ -1,0 +1,409 @@
+[
+    {
+      "model": "raterapi.gamerating",
+      "pk": 1,
+      "fields": {
+        "game": 1,
+        "user": 1,
+        "rating": 8,
+        "created_at": "2023-04-01T12:30:00Z",
+        "updated_at": "2023-04-01T12:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 2,
+      "fields": {
+        "game": 1,
+        "user": 2,
+        "rating": 7,
+        "created_at": "2023-04-01T14:15:00Z",
+        "updated_at": "2023-04-01T14:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 3,
+      "fields": {
+        "game": 1,
+        "user": 3,
+        "rating": 9,
+        "created_at": "2023-04-01T16:45:00Z",
+        "updated_at": "2023-04-01T16:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 4,
+      "fields": {
+        "game": 1,
+        "user": 4,
+        "rating": 6,
+        "created_at": "2023-04-01T18:20:00Z",
+        "updated_at": "2023-04-01T18:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 5,
+      "fields": {
+        "game": 1,
+        "user": 5,
+        "rating": 8,
+        "created_at": "2023-04-01T20:10:00Z",
+        "updated_at": "2023-04-01T20:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 6,
+      "fields": {
+        "game": 1,
+        "user": 6,
+        "rating": 7,
+        "created_at": "2023-04-01T22:05:00Z",
+        "updated_at": "2023-04-01T22:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 7,
+      "fields": {
+        "game": 2,
+        "user": 1,
+        "rating": 9,
+        "created_at": "2023-04-02T10:15:00Z",
+        "updated_at": "2023-04-02T10:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 8,
+      "fields": {
+        "game": 2,
+        "user": 2,
+        "rating": 8,
+        "created_at": "2023-04-02T11:30:00Z",
+        "updated_at": "2023-04-02T11:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 9,
+      "fields": {
+        "game": 2,
+        "user": 3,
+        "rating": 7,
+        "created_at": "2023-04-02T13:45:00Z",
+        "updated_at": "2023-04-02T13:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 10,
+      "fields": {
+        "game": 2,
+        "user": 4,
+        "rating": 10,
+        "created_at": "2023-04-02T15:20:00Z",
+        "updated_at": "2023-04-02T15:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 11,
+      "fields": {
+        "game": 2,
+        "user": 5,
+        "rating": 6,
+        "created_at": "2023-04-02T17:10:00Z",
+        "updated_at": "2023-04-02T17:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 12,
+      "fields": {
+        "game": 2,
+        "user": 6,
+        "rating": 8,
+        "created_at": "2023-04-02T19:05:00Z",
+        "updated_at": "2023-04-02T19:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 13,
+      "fields": {
+        "game": 3,
+        "user": 1,
+        "rating": 7,
+        "created_at": "2023-04-03T09:30:00Z",
+        "updated_at": "2023-04-03T09:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 14,
+      "fields": {
+        "game": 3,
+        "user": 2,
+        "rating": 9,
+        "created_at": "2023-04-03T10:45:00Z",
+        "updated_at": "2023-04-03T10:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 15,
+      "fields": {
+        "game": 3,
+        "user": 3,
+        "rating": 8,
+        "created_at": "2023-04-03T12:15:00Z",
+        "updated_at": "2023-04-03T12:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 16,
+      "fields": {
+        "game": 3,
+        "user": 4,
+        "rating": 7,
+        "created_at": "2023-04-03T14:20:00Z",
+        "updated_at": "2023-04-03T14:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 17,
+      "fields": {
+        "game": 3,
+        "user": 5,
+        "rating": 9,
+        "created_at": "2023-04-03T16:10:00Z",
+        "updated_at": "2023-04-03T16:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 18,
+      "fields": {
+        "game": 3,
+        "user": 6,
+        "rating": 8,
+        "created_at": "2023-04-03T18:05:00Z",
+        "updated_at": "2023-04-03T18:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 19,
+      "fields": {
+        "game": 4,
+        "user": 1,
+        "rating": 10,
+        "created_at": "2023-04-04T11:30:00Z",
+        "updated_at": "2023-04-04T11:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 20,
+      "fields": {
+        "game": 4,
+        "user": 2,
+        "rating": 9,
+        "created_at": "2023-04-04T13:15:00Z",
+        "updated_at": "2023-04-04T13:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 21,
+      "fields": {
+        "game": 4,
+        "user": 3,
+        "rating": 8,
+        "created_at": "2023-04-04T15:45:00Z",
+        "updated_at": "2023-04-04T15:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 22,
+      "fields": {
+        "game": 4,
+        "user": 4,
+        "rating": 9,
+        "created_at": "2023-04-04T17:20:00Z",
+        "updated_at": "2023-04-04T17:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 23,
+      "fields": {
+        "game": 4,
+        "user": 5,
+        "rating": 7,
+        "created_at": "2023-04-04T19:10:00Z",
+        "updated_at": "2023-04-04T19:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 24,
+      "fields": {
+        "game": 4,
+        "user": 6,
+        "rating": 8,
+        "created_at": "2023-04-04T21:05:00Z",
+        "updated_at": "2023-04-04T21:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 25,
+      "fields": {
+        "game": 5,
+        "user": 1,
+        "rating": 6,
+        "created_at": "2023-04-05T10:30:00Z",
+        "updated_at": "2023-04-05T10:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 26,
+      "fields": {
+        "game": 5,
+        "user": 2,
+        "rating": 7,
+        "created_at": "2023-04-05T12:15:00Z",
+        "updated_at": "2023-04-05T12:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 27,
+      "fields": {
+        "game": 5,
+        "user": 3,
+        "rating": 8,
+        "created_at": "2023-04-05T14:45:00Z",
+        "updated_at": "2023-04-05T14:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 28,
+      "fields": {
+        "game": 5,
+        "user": 4,
+        "rating": 6,
+        "created_at": "2023-04-05T16:20:00Z",
+        "updated_at": "2023-04-05T16:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 29,
+      "fields": {
+        "game": 5,
+        "user": 5,
+        "rating": 7,
+        "created_at": "2023-04-05T18:10:00Z",
+        "updated_at": "2023-04-05T18:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 30,
+      "fields": {
+        "game": 5,
+        "user": 6,
+        "rating": 5,
+        "created_at": "2023-04-05T20:05:00Z",
+        "updated_at": "2023-04-05T20:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 31,
+      "fields": {
+        "game": 6,
+        "user": 1,
+        "rating": 9,
+        "created_at": "2023-04-06T09:30:00Z",
+        "updated_at": "2023-04-06T09:30:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 32,
+      "fields": {
+        "game": 6,
+        "user": 2,
+        "rating": 8,
+        "created_at": "2023-04-06T11:15:00Z",
+        "updated_at": "2023-04-06T11:15:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 33,
+      "fields": {
+        "game": 6,
+        "user": 3,
+        "rating": 9,
+        "created_at": "2023-04-06T13:45:00Z",
+        "updated_at": "2023-04-06T13:45:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 34,
+      "fields": {
+        "game": 6,
+        "user": 4,
+        "rating": 7,
+        "created_at": "2023-04-06T15:20:00Z",
+        "updated_at": "2023-04-06T15:20:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 35,
+      "fields": {
+        "game": 6,
+        "user": 5,
+        "rating": 10,
+        "created_at": "2023-04-06T17:10:00Z",
+        "updated_at": "2023-04-06T17:10:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 36,
+      "fields": {
+        "game": 6,
+        "user": 6,
+        "rating": 8,
+        "created_at": "2023-04-06T19:05:00Z",
+        "updated_at": "2023-04-06T19:05:00Z"
+      }
+    },
+    {
+      "model": "raterapi.gamerating",
+      "pk": 37,
+      "fields": {
+        "game": 7,
+        "user": 1,
+        "rating": 8,
+        "created_at": "2023-04-07T10:30:00Z",
+        "updated_at": "2023-04-07T10:30:00Z"
+      }
+    }
+]
